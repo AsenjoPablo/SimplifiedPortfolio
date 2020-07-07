@@ -20,6 +20,12 @@
   background-size: cover;
 }
 
+@media (max-width: 1000px) {
+  .main {
+    width: 900px;
+  }
+}
+
 .main .container {
   height: 560px;
   width: 900px;
