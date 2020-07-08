@@ -48,16 +48,44 @@
 
             </div>
 
-            <button id="checkout-btn" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Checkout</button>
-
         </nav> 
 
         <section id="mainbody" class="container">
             <h1>About this project</h1>
-            <h1>About this project</h1>
-            <h1>About this project</h1>
-            <h1>About this project</h1>
-            <h1>About this project</h1>
+            <p>This is a quick project made by Pablo to test the use of JQuery.</p>
+            <p>As you can see, you can add products to a shopping cart. This shopping cart keeps
+                track of everything that is added to it. It will add the value of the item to
+                the total € spent. <br>
+                <ul>
+                    <li>
+                        If the product doesn't exist in the shopping cart, it will be appended as a new div.
+                        The product's cost will be added to the total cost and it will be shown when clicking
+                         <strong>"Checkout".</strong>
+                    </li>
+                    <li>
+                        If the product already exists, it won't be appended as a new item: <strong>it will
+                        increase the amount by one, and multiply the item's total cost</strong> by the amount of 
+                        items.
+                    </li>
+                    <li>
+                        <strong>Checkout button</strong> toggles an animation showing all added items and their cost,
+                        which is updated in real time.
+                    </li>
+                    <li>
+                        When an item is removed, bootstrap finds its real location and <strong>deletes the item from the Checkout list.</strong> 
+                    </li>
+                    <li>
+                        The item's value is internally located and withdrawn from the total cost of the operation.
+                    </li>
+                    <li>
+                        Every time an item is removed, it is <strong> totally reset </strong>(quantity and cost)
+                    </li>
+                </ul>
+
+                <h2>I hope you have fun using this little project!</h2>
+                <p style="font-style: italic;">Pablo</p>
+     
+            </p>
         </section>
        
     </div>

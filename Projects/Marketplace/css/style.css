@@ -104,3 +104,16 @@ body {
 #cart {
     margin-top: 1%;
 }
+
+/* Styles specific to about page */
+#mainbody {
+    margin-top: 13%;
+
+
+}
+
+@media (min-width: 1280px) {
+    #mainbody {
+        margin-top: 5%;
+    }
+}
