@@ -1,0 +1,106 @@
+/* all */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+    background-color: rgb(248, 248, 248);
+}
+
+/* navbar changes */
+.navbar {
+    border-radius: 0 0 5px 5px;
+
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    lefT: 0px;
+    z-index: 1;
+}
+
+.navbar-nav {
+    font-size: 1.3rem;
+}
+
+/* product image size */
+.product-pic {
+    width: 50%;
+}
+
+
+/* mobile oriented sizes */
+.products {
+    width: 90%;
+    margin: 13%;
+	
+    font-size: 1.2rem;
+}
+#cart {
+    padding-top: 15%;
+}
+
+/* smaller empty space when screen is big */
+@media (min-width: 1280px) {
+	.products {
+		margin-top: 5%;
+	}
+	#cart {
+		padding-top: 5%;
+	}
+}
+
+/* product cards */
+@media (max-width: 460px) {
+	.card {
+		padding: 1%;
+   		margin: 10% auto;
+	}
+}
+
+.card {
+    padding: 1%;
+    margin: 3% auto;
+}
+
+.card-body {
+    border: solid 2px rgba(0, 0, 0, 0.144);
+    border-radius: 5px;
+    width: 95%;
+    margin: 5% auto;
+}
+
+.desc {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.price {
+    border-radius: 5px;
+    width: 20%;
+    margin: 5% auto;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+/* confirmation popup */
+.confirmation {
+    position: absolute;
+    top: 20%;
+
+    background-color: #f0ad4e;
+    border: dotted 3px #ffd292;
+    color: green;
+
+    padding: 2%;
+    border-radius: 5px;
+}
+
+/* buttons */
+#checkout-btn {
+    margin-left: 2%;
+    font-size: 1.2rem;
+}
+
+/* shopping cart*/
+#cart {
+    margin-top: 1%;
+}

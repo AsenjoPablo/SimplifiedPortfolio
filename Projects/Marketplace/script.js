@@ -133,7 +133,7 @@ $(document).ready(function() {
                 cleanObj(plant);
                 break;
             case "tv bench":
-                cleanObj(bed);
+                cleanObj(tvBench);
                 break;
             default:
                 console.log("Nothing has been removed! (no match)")
