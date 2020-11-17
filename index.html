@@ -121,7 +121,15 @@
           Hello! <br />
           I'm Pablo
         </h2>
-        <span class="orange"><em>Welcome to my website</em></span>
+        <span class="orange"
+          ><em
+            >Welcome to my website <br />
+            <span style="color: white; font-size: 1.2rem; font-style: normal">
+              This website is being rebuilt in ReactJS<br />
+              Stay tuned!
+            </span>
+          </em></span
+        >
       </div>
     </div>
     <!-- END OF WELCOME SECTION -->
@@ -134,13 +142,33 @@
 
     <div id="all-projects-container" class="row text-center">
       <div class="col-lg-4 project-container">
+        <a href="https://hopeful-khorana-035a54.netlify.app/" target="_blank">
+          <div class="card">
+            <div class="card-body">
+              <img
+                class="fit-img"
+                src="img\projects\react-fcc-calc.png"
+                alt="calculator"
+              />
+              <h3 class="card-title">FCC Calculator</h3>
+              <p class="card-text">ReactJS</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-4 project-container">
         <a
           href="https://github.com/AsenjoPablo/React-Native-Movie-Tracker"
           target="_blank"
         >
           <div class="card">
             <div class="card-body">
-              <img src="img/projects/movietracker.jpeg" alt="calculator" />
+              <img
+                class="fit-img"
+                src="img/projects/movietracker.jpeg"
+                alt="movie tracker"
+              />
               <h3 class="card-title">Movie Tracker</h3>
               <p class="card-text">React Native</p>
             </div>
@@ -155,7 +183,11 @@
         >
           <div class="card">
             <div class="card-body">
-              <img src="img/projects/android-calculator.png" alt="calculator" />
+              <img
+                class="fit-img"
+                src="img/projects/android-calculator.png"
+                alt="calculator"
+              />
               <h3 class="card-title">Android Calculator</h3>
               <p class="card-text">Java (AndroidSt)</p>
             </div>
@@ -187,7 +219,7 @@
             <div class="card-body">
               <img src="img/projects/music.jpg" alt="musician" />
               <h3 class="card-title">Drum machine</h3>
-              <p class="card-text">React</p>
+              <p class="card-text">ReactJS</p>
             </div>
           </div>
         </a>
@@ -199,7 +231,7 @@
             <div class="card-body">
               <img src="img/projects/books.jpg" alt="two books" />
               <h3 class="card-title">Quote Generator</h3>
-              <p class="card-text">React + Bootstrap</p>
+              <p class="card-text">ReactJS + Bootstrap</p>
             </div>
           </div>
         </a>
@@ -267,7 +299,7 @@
           <div class="card">
             <div class="card-body">
               <img
-                id="doc-img"
+                class="fit-img"
                 src="img/projects/docume.jpg"
                 alt="technical document"
               />
